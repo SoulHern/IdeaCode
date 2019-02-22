@@ -16,4 +16,13 @@ public class UserController {
         map.put("hehe", "1234");
         return map;
     }
+
+    @RequestMapping("/heihei")
+    public Object test1() {
+        System.out.println("测试成功");
+        Map<String, String> map = new HashMap<>();
+        map.put("hehe", "1234");
+        return map;
+    }
+
 }
